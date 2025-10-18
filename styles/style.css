@@ -59,6 +59,7 @@ ol {
   align-items: end;
   gap: 30px;
   width: 1140px;
+  margin-top: 7px;
 }
 
 
@@ -81,7 +82,7 @@ ol {
 .content__list-container {
   display: grid;
   gap: 30px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .content__list {
@@ -110,8 +111,8 @@ ol {
 .result__video-container {
   position: relative;
   width: 711px;
-  height: 386px;
-  margin-bottom: 16px;
+  height: 386px;  
+  margin-bottom: px;
   object-fit: cover;
   object-position: center;
 }
@@ -225,6 +226,7 @@ background-color: rgba(84, 80, 80, 1);
 
 .search-form__fieldset {
   border: none;
+  margin-top: 20px;
 }
 
 .search-form__label {
