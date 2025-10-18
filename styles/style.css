@@ -112,7 +112,6 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;  
-  margin-bottom: px;
   object-fit: cover;
   object-position: center;
 }
@@ -130,9 +129,7 @@ ol {
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 
 .title {
@@ -141,9 +138,7 @@ ol {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
-  font-style: Bold;
   line-height: 94%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -184,9 +179,7 @@ background-color: rgba(84, 80, 80, 1);
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
-  font-style: Bold;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -200,13 +193,10 @@ background-color: rgba(84, 80, 80, 1);
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   line-height: 16.2px;
-  letter-spacing: 0%;
   text-decoration: none;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4; 
-  line-clamp: 4;
 }
 
 .visually-hidden {
@@ -255,9 +245,7 @@ background-color: rgba(84, 80, 80, 1);
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  font-style: Regular;
   line-height: 100%;
-  letter-spacing: 0%;
   background-color: transparent;
   appearance: none;
 }
@@ -300,9 +288,7 @@ background-color: rgba(84, 80, 80, 1);
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 700;
   font-size: 18px;
-  font-style: Bold;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
   background-color: transparent;
   cursor: pointer;
