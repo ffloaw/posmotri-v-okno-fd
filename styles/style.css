@@ -63,7 +63,10 @@ ol {
 
 .content__list-container {
   position: relative;
+  display: grid;
+  gap: 30px;
   height: 298px;
+  margin-top: 20px;
   overflow: auto;
 }
 
@@ -75,12 +78,6 @@ ol {
 
 .content__details {
   width: 100%;
-}
-
-.content__list-container {
-  display: grid;
-  gap: 30px;
-  margin-top: 20px;
 }
 
 .content__list {
@@ -323,14 +320,12 @@ ol {
   width: 100%;
 }
 
-.button:hover,
 .button:hover {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
 }
 
-.button:active,
 .button:active {
   text-decoration: none;
   background-color: rgba(84, 80, 80, 1);
@@ -340,8 +335,7 @@ ol {
   outline: none;
 }
 
-.search-form__submit-button:focus-visible,
-.more-button:focus-visible {
+.button:focus-visible {
   outline: 1px solid rgba(255, 255, 255, 1);
   outline-offset: 1px;
 }
